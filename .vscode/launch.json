@@ -1,0 +1,25 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "stage",
+            "stopOnEntry": false,
+            "protocol": "inspector",
+            "args": [
+                "${workspaceFolder}/src/server.js"
+            ],
+            "cwd": "${workspaceRoot}",
+            "runtimeArgs": [
+                "-r"
+            ],
+            // "runtimeExecutable":"node_path",
+            "env": {
+                "NODE_ENV": "staging",
+                "PORT": 5875
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
