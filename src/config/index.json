@@ -1,0 +1,12 @@
+{
+    "jwt": {
+        "access": {
+            "secretKey": "sgdyhysdgysukiui",
+            "expireDays": 2
+        },
+        "refresh": {
+            "secretKey": "sgdyhysdgysukiui",
+            "expireDays": 30
+        }
+    }
+}
